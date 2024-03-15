@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(34, 40, 49);
+}
+.container{
+  display: flex;
+  height: 100vh;
+ 
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 30px;
+  padding: 8px;
+}
+.logo{
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 40px;
+  color: rgb(21, 245, 186);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul{
+  margin-right: 20px;
+}
+.navbar a{
+  text-decoration: none;
+  margin-right: 35px;
+  font-size: 25px;
+  color: rgb(16, 88, 170);
+}
+
+.Home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+ 
+}
+.Profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.Profile .profile-img{
+  max-height: 350px;
+  height: 100%;
+  border-radius: 20px;
+
+}
+.discription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.Intro h1, h2{
+  color: rgb(226, 223, 223);
+  line-height: 40px;
+}
+.Intro h2{
+  padding: 10px 0px;
+}
+.name{
+  color: rgb(16, 88, 170);
+}
+
+.links{
+   
+}
+.discription .Info .info {
+  display: block;
+  max-width: 500px;
+  color: rgb(226, 223, 223);
+  margin-bottom: 20px;
+}
+.Contact-btn{
+  margin: 20px 0px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(21, 245, 186);
+  color:  rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+
+img {
+border-radius: 50%;
+
+ height: 40px;
+}
